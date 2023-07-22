@@ -110,12 +110,14 @@ const Login = () => {
         variant="solid"
         colorScheme="red"
         width="100%"
-        onClick={() => {
-          setEmail("guest@example.com");
-          setPassword("123456");
-        }}
+        onClick={(e) => {
+          e.preventDefault();
+          window.open("https://www.linkedin.com/company/hacktivspace-community/", "_blank");
+
+          
+      }}
       >
-        Get Guest User Credentials
+        Watch Project Recording
       </Button>
     </VStack>
   );

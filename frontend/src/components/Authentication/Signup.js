@@ -100,9 +100,9 @@ const Signup = () => {
     if (pics.type === "image/jpeg" || pics.type === "image/png") {
       const data = new FormData();
       data.append("file", pics);
-      data.append("upload_preset", "chat-app");
+      data.append("upload_preset", "arnscyeh");
       data.append("cloud_name", "shopie")
-      fetch("https://api.cloudinary.com/v1_1/shopie", {
+      fetch("https://api.cloudinary.com/v1_1/shopie/image/upload", {
         method: "post",
         body: data,
       })
