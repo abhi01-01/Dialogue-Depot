@@ -43,6 +43,19 @@ Start the Client
   npm start
 ```
 
+## API Endpoints
+
+- **POST /api/user/signup**: User registration.
+- **POST /api/user/login**: User login.
+- **GET /api/user/search**: Search for users.
+- **POST /api/chat**: Create a new chat.
+- **GET /api/chat**: Fetch user chats.
+- **POST /api/chat/group**: Create a group chat.
+- **PUT /api/chat/rename**: Rename a group chat.
+- **PUT /api/chat/groupremove**: Remove a user from a group.
+- **PUT /api/chat/groupadd**: Add a user to a group.
+- ... (and more)
+
 
 
 
